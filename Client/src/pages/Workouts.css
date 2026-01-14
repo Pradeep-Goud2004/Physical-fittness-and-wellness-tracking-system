@@ -1,0 +1,69 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.workouts-list {
+  margin-top: 20px;
+}
+
+.workout-card {
+  margin-bottom: 15px;
+}
+
+.workout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.workout-header h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.workout-date {
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.workout-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.workout-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.detail-item {
+  color: #666;
+}
+
+.exercises-list {
+  margin-top: 10px;
+}
+
+.exercise-item {
+  padding: 5px 10px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin: 5px 0;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.workout-notes {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  font-style: italic;
+}
+

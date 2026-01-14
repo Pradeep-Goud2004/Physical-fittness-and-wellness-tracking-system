@@ -1,0 +1,64 @@
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.stat-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.stat-item:last-child {
+  border-bottom: none;
+}
+
+.alerts-card {
+  margin-bottom: 20px;
+}
+
+.heatmap-container {
+  margin-top: 20px;
+}
+
+.heatmap {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+  gap: 5px;
+  max-width: 100%;
+}
+
+.heatmap-cell {
+  aspect-ratio: 1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  cursor: pointer;
+  background-color: #ebedf0;
+  transition: all 0.2s;
+}
+
+.heatmap-cell:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.intensity-1 {
+  background-color: #c6e48b;
+}
+
+.intensity-2 {
+  background-color: #7bc96f;
+}
+
+.intensity-3 {
+  background-color: #239a3b;
+}
+
+.intensity-4 {
+  background-color: #196127;
+}
+

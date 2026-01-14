@@ -1,0 +1,80 @@
+.feedbacks-list {
+  margin-top: 20px;
+}
+
+.feedback-card {
+  margin-bottom: 15px;
+}
+
+.feedback-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.feedback-header h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.feedback-meta {
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-pending {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.status-responded {
+  background-color: #28a745;
+  color: white;
+}
+
+.status-resolved {
+  background-color: #6c757d;
+  color: white;
+}
+
+.feedback-message {
+  margin: 15px 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+.feedback-rating {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff3cd;
+  border-radius: 4px;
+}
+
+.feedback-response {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #d1ecf1;
+  border-radius: 4px;
+  border-left: 4px solid #17a2b8;
+}
+
+.feedback-response p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.feedback-response small {
+  color: #666;
+  font-size: 12px;
+}
+
